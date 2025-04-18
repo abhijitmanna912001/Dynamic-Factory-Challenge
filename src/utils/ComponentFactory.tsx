@@ -3,7 +3,7 @@ import Card from "../components/Card";
 import Modal from "../components/Modal";
 import { ButtonProps, CardProps, ModalProps } from "./component-types";
 
-type ComponentConfig =
+export type ComponentConfig =
   | { type: "button"; props: ButtonProps }
   | { type: "card"; props: CardProps }
   | { type: "modal"; props: ModalProps };
